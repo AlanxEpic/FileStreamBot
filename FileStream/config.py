@@ -9,10 +9,10 @@ class Telegram:
     BOT_TOKEN = "6056419871:AAHu1HvP1hdNuVyVVOmy79Fr9CZuSGX96Ao"
     OWNER_ID = 1170382284
     WORKERS = int(env.get("WORKERS", "6"))  # 6 workers = 6 commands at once
-    DATABASE_URL = str(env.get('DATABASE_URL'))
+    DATABASE_URL = "mongodb+srv://waserecords13:@A123bubu123@wase.oocg6.mongodb.net/?retryWrites=true&w=majority&appName=Wase"
     UPDATES_CHANNEL = -1001784625175
     SESSION_NAME = str(env.get('SESSION_NAME', 'FileStream'))
-    FORCE_SUB_ID = env.get('FORCE_SUB_ID', None)
+    FORCE_SUB_ID = -1001784625175
     FORCE_SUB = -1001784625175
     FORCE_SUB = True
     SLEEP_THRESHOLD = int(env.get("SLEEP_THRESHOLD", "60"))
